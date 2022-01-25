@@ -1,0 +1,27 @@
+.addBtn {
+  box-shadow: 3px 4px 10px rgb(34, 35, 39);
+
+  background: gray;
+  border: 0;
+  font-size: 18px;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.addBtn:hover,
+.addBtn:active,
+.addBtn:focus {
+  background: rgb(33, 27, 58);
+  border: 1px solid white;
+}
+
+.addBtn svg {
+  margin-left: 10px;
+}
+
+.allCards__modal .modal__description textarea {
+  max-height: 200px;
+  min-height: 200px;
+}
